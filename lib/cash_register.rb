@@ -41,4 +41,5 @@ class CashRegister
     @total -= @last_transation[:price]
     @items.delete(@last_transation[:title])
   end
+  binding.pry
 end
